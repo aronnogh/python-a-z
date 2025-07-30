@@ -1,13 +1,3 @@
-Here is a **brief but complete syllabus** covering:
-
-* **Module 1: Python Syntax and Structure**
-* **Module 2: Variables and Data Types**
-* **Module 3: Operators**
-
-It is structured **topic by topic (A-Z)**, with concise explanations to serve as a solid reference for learning or teaching.
-
----
-
 # 🧩 Python Basics - Module 1 to Module 3
 
 ---
@@ -30,7 +20,7 @@ It is structured **topic by topic (A-Z)**, with concise explanations to serve as
   total = (1 +
            2 +
            3)
-```
+
 * **Compound Statement**: `if`, `for`, `while`, etc., with a colon `:` and indented block
 
 ---
