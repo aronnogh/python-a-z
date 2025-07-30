@@ -8,7 +8,6 @@ It is structured **topic by topic (A-Z)**, with concise explanations to serve as
 
 ---
 
-````md
 # 🧩 Python Basics - Module 1 to Module 3
 
 ---
@@ -31,8 +30,7 @@ It is structured **topic by topic (A-Z)**, with concise explanations to serve as
   total = (1 +
            2 +
            3)
-````
-
+```
 * **Compound Statement**: `if`, `for`, `while`, etc., with a colon `:` and indented block
 
 ---
