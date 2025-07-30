@@ -2,34 +2,11 @@
 
 ---
 
-## 🔹 1 Python Syntax and Structure
+## 🔹 Module 1: Variables and Data Types
 
-### 1.1 Indentation
-- Python uses **indentation instead of braces** `{}` to define blocks.
-- Standard is **4 spaces** per indent level.
-- Indentation is **mandatory** and defines **code structure** (functions, loops, conditionals).
+### 1.1 Variables
 
-### 1.2 Comments
-- **Single-line comment**: starts with `#`
-- **Multi-line comment**: enclosed in triple quotes `''' ... '''` or `""" ... """` (used mainly for docstrings)
-
-### 1.3 Python Statements
-- **Simple Statement**: `x = 5`
-- **Multi-line Statement**: Use `\` or parentheses
-  ```python
-  total = (1 +
-           2 +
-           3)
-
-* **Compound Statement**: `if`, `for`, `while`, etc., with a colon `:` and indented block
-
----
-
-## 🔹 Module 2: Variables and Data Types
-
-### 2.1 Variables
-
-#### 2.1.1 Declaring Variables
+#### 1.1.1 Declaring Variables
 
 * No keyword required. Assign directly:
 
@@ -38,14 +15,14 @@
   age = 25
   ```
 
-#### 2.1.2 Naming Rules
+#### 1.1.2 Naming Rules
 
 * Must start with a **letter** or `_`
 * Can include letters, numbers, underscores
 * **Case-sensitive**
 * Avoid keywords like `if`, `for`, `class`, etc.
 
-#### 2.1.3 Dynamic Typing
+#### 1.1.3 Dynamic Typing
 
 * Variable types are **automatically inferred**:
 
@@ -54,30 +31,30 @@
   x = "hello"   # now str
   ```
 
-### 2.2 Data Types
+### 1.2 Data Types
 
-#### 2.2.1 Numbers
+#### 1.2.1 Numbers
 
 * **int**: Integer values (`42`)
 * **float**: Decimal values (`3.14`)
 * **complex**: Complex numbers (`3 + 4j`)
 
-#### 2.2.2 Strings
+#### 1.2.2 Strings
 
 * Defined with `'`, `"`, `'''`, or `"""`
 * Immutable sequences of characters
 * String operations: indexing, slicing, concatenation, formatting
 
-#### 2.2.3 Booleans
+#### 1.2.3 Booleans
 
 * `True` and `False`
 * Used in conditionals and comparisons
 
-#### 2.2.4 NoneType
+#### 1.2.4 NoneType
 
 * `None` is a special type representing **no value**
 
-#### 2.2.5 Type Conversion (Casting)
+#### 1.2.5 Type Conversion (Casting)
 
 * Convert types using `int()`, `float()`, `str()`, `bool()`
 
@@ -86,10 +63,24 @@
   float(3) → 3.0
   ```
 
-#### 2.2.6 `type()` and `isinstance()`
+#### 1.2.6 `type()` and `isinstance()`
 
 * `type(x)` returns type of variable
 * `isinstance(x, type)` checks if x is an instance of the type
+
+---
+
+## 🔹 Module 2: Python Syntax and Structure
+
+<!-- Will talk later -->
+### 2.1 Indentation 
+- Python uses **indentation instead of braces** `{}` to define blocks.
+- Standard is **4 spaces** per indent level.
+- Indentation is **mandatory** and defines **code structure** (functions, loops, conditionals).
+
+### 2.2 Comments
+- **Single-line comment**: starts with `#`
+- **Multi-line comment**: enclosed in triple quotes `''' ... '''` or `""" ... """` (used mainly for docstrings)
 
 ---
 
