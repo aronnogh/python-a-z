@@ -6,7 +6,7 @@
 
 ### 1.1 Variables
 
-#### 1.1.1 Declaring Variables
+#### 1.1.1 Declaring Variables ✅
 
 * No keyword required. Assign directly:
 
@@ -15,14 +15,14 @@
   age = 25
   ```
 
-#### 1.1.2 Naming Rules
+#### 1.1.2 Naming Rules ✅
 
 * Must start with a **letter** or `_`
 * Can include letters, numbers, underscores
 * **Case-sensitive**
 * Avoid keywords like `if`, `for`, `class`, etc.
 
-#### 1.1.3 Dynamic Typing
+#### 1.1.3 Dynamic Typing ✅
 
 * Variable types are **automatically inferred**:
 
